@@ -1,0 +1,21 @@
+main {
+  box-sizing: border-box;
+  padding: 24px;
+  margin-top: 0px;
+
+  @media screen and (max-width: 1024px) {
+    margin-top: 72px;
+  }
+
+  &.homepage {
+    // classes for homepage goes here
+  }
+
+  &.aboutpage {
+    // classes for about page goes here
+  }
+}
+
+.generic-card {
+  padding: 24px;
+}
